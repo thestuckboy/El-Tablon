@@ -1,0 +1,84 @@
+/*----main-content----*/
+
+.welcome {
+    letter-spacing: 2px;
+}
+
+.main-content {
+    margin-top: 10vh;
+}
+
+.color-white {
+    color: white;
+}
+
+.color-red {
+    color: rgb(166, 43, 43);
+}
+
+.color-brown {
+    color: rgb(53, 22, 0);
+}
+
+.font-Acme {
+    font-family: Acme;
+}
+
+.paragraph {
+    width: 75%;
+    font-size: 1.5rem;
+    transition: background-color 0.2s, color 0.5s;
+}
+
+.bi {
+    margin-right: 5px;
+}
+
+.service-message .paragraph:hover {
+    background-color: brown;
+    color: white;
+    cursor: grab;
+}
+
+/*----Contact----*/
+
+.carpintero-img {
+    background-image: url('/img/content/carpintero.jpg');
+    background-size: cover;
+}
+
+.image-div{
+    height: 100vh;
+}
+
+.divition-line {
+    background-color: brown;
+    height: 2px;
+    width: 100%;
+}
+
+.feature-list ul {
+    list-style: none;
+}
+
+.feature-list li {
+    font-size: 25px;
+}
+
+.image-container{
+    width: 100%;
+    height: 110vh;
+}
+
+.tala-img {
+    background-image: url('/img/content/tala-arboles.jpg');
+    background-size: cover;
+}
+
+.enviroment {
+    color: #ADE28A;
+}
+
+.font-sz-26 {
+    font-size: 26px;
+}

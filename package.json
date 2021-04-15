@@ -1,0 +1,19 @@
+{
+  "name": "template-engines-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "nodemon": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}

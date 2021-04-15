@@ -1,0 +1,35 @@
+/*----Important Code----*/
+
+@import "fonts.css";
+@import "header.css";
+@import "desktop_navbar.css";
+@import "responsive_navbar.css";
+@import "content.css";
+@import "slideshow.css";
+@import "footer.css";
+@import "media_querys.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    background-color: brown;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*----BODY----*/
+
+body {
+    overflow-x: hidden;
+}

@@ -1,0 +1,36 @@
+/*Footer*/
+
+footer .bg-red{
+    padding:10px;
+}
+
+footer p {
+    color: white;
+    margin: 0 10px;
+    font-size: 26px;
+    white-space: nowrap;
+}
+
+.line {
+    height: 2px;
+    width: 35vh;
+    background-color: white;
+}
+
+.whitetxt {
+    color: white;
+    font-size: 20px;
+}
+
+.grow {
+    transition: all 0.5s;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+.minus {
+    font-size: 20px;
+    text-decoration: underline;
+}

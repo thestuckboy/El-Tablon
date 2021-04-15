@@ -1,0 +1,35 @@
+/*----Desktop Navbar----*/
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.list a {
+    font-family: Acme;
+    font-size: 1.5rem;
+    color: white;
+    padding: 0px 15px;
+    transition: color 0.5s, background-color 0.2s;
+}
+.list li {
+    transition:background-color 0.2s;
+}
+.list li:hover {
+    background-color: white;
+}
+
+.list li:hover a {
+    color: brown;
+}
+
+.active {
+    background-color: white;
+}
+
+.active a {
+    color: brown;
+}

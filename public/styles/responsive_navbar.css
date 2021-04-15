@@ -1,0 +1,41 @@
+/*----Responsive Navbar----*/
+
+.responsive-navbar {
+    display: none;
+}
+
+.bg-red{
+    background: brown;
+}
+
+.rs-list {
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rs-list li {
+    margin: 15px 0px;
+}
+
+.rs-list a {
+    font-size: 1.2em;
+    font-family: Acme;
+    color: white;
+    padding:15px 5px;
+    transition: color 0.5s, background-color 0.2s;
+}
+
+.rs-list a:hover {
+    background-color: white;
+    color: brown;
+}
+
+.margin-0 {
+    padding: 0;
+    margin: 0;
+}
+
+.margin {
+    padding: 20px;
+}

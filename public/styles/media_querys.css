@@ -1,0 +1,30 @@
+/*----Media Querys----*/
+
+@media screen and (max-width:500px) {
+    .responsive-navbar {
+        display: block;
+    }
+
+    .desktop-navbar {
+        display: none;
+    }
+
+    .paragraph {
+        font-size: 16px;
+    }
+    .welcome {
+        font-size: 20px;
+    }
+
+    footer p {
+        font-size: 20,8px;
+    }
+
+    .minus {
+        font-size: 16px;
+    }
+
+    .whitetxt {
+        font-size: 16px;
+    }
+}
