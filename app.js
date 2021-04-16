@@ -8,16 +8,18 @@ app.set('view engine', 'ejs');
 
 app.get('/', (req, res)=>{
     res.render('index');
-    console.log(`'/' Request received`.red);
 });
 
 app.get('/about', (req, res)=>{
-    res.render('contact');
-    console.log(`'/about' Request received`.red)
+    res.render('about');
+});
+
+app.get('/services', (req, res)=>{
+    res.render('services');
 });
 
 app.get('/contact', (req, res)=>{
-    res.send('<h1>works</h1>');
+    res.render('contact');
 });
 
 app.listen(port, ()=>{
