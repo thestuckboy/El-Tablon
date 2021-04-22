@@ -1,0 +1,14 @@
+In this file you'll see the changes commited:
+
+New files:
+
+1. changes.txt added.
+2. /contact route added.
+3. Added 'Google Maps' API
+4. Added views/content/contact-content.ejs
+5. Added public/js/initmap.js which will be loaded only for contact-content.ejs to load 'maps' API
+
+Modified:
+
+-public/styles/content.css
+-views/contact.ejs
